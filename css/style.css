@@ -274,7 +274,6 @@ nav ul ul li {
     min-height: 299px;
     background-color: #e8ebf1;
     position: relative;
-    position: cover;
     box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.07);
     border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
@@ -609,7 +608,11 @@ nav ul ul li {
 }
 
 .download {
+    max-width: 1000px;
     margin: 0 auto;
+}
+
+.download_position {
     margin-top: 57px;
     max-width: 999px;
     min-height: 140px;
